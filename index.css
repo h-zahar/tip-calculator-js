@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: black url('blurry-background-image.jpeg') center center repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 384.427062989px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 30px 30px 20px;
+    text-align: center;
+    color: #123456;
+    font-family: monospace;
+    font-weight: bold;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(181, 124, 48, 1));
+    
+    box-shadow: -4px -4px 10px black, 4px 4px 10px black;
+    border-radius: 10px;
+}
+
+.calculator {
+    font-size: 17px;
+    letter-spacing: -0.5px;
+}
+
+h1 {
+    pointer-events: none;
+    font-family: cursive;
+    margin-top: 0;
+}
+
+form {
+    width: 95.5337868%;
+    margin: 25px auto 0;
+    padding: 5px 5px 22px;
+    text-align: left;
+    border-top: solid 1px darkslateblue;
+    border-bottom: solid 1px darkslateblue;
+}
+
+.label {
+    margin: 0 0 15px;
+    padding-left: 8px;
+}
+
+.people {
+    margin-bottom: 30px;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    padding: 8px 0;
+}
+
+input, select {
+    display: block;
+    margin: 0;
+    border: solid 1px black;
+    border-radius: 50px;
+}
+
+input {
+    cursor: default;
+    padding: 12px;
+    width: 40%;
+    font-size: 14px;
+    font-family: cursive;
+    text-align: center;
+}
+
+select{
+    cursor: pointer;
+    padding: 5px;
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+}
+
+input:hover {
+    cursor: pointer;
+    outline: none;
+    border: solid 1px cyan;
+    margin-bottom: 0.5px;
+}
+
+input:focus {
+    cursor: text;
+    outline: none;
+    border: solid 1px black;
+    margin-bottom: 0.5px;
+}
+
+select:hover {
+    outline: none;
+    border: solid 1px cyan;
+    margin-bottom: 0.5px;
+}
+
+select:focus {
+    outline: none;
+    border: solid 1px black;
+    margin-bottom: 0.5px;
+}
+
+option {
+    font-family: serif;
+    color: midnightblue;
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(255, 200, 190, 1), rgba(255, 194, 148, 1));
+    border: solid 0px black;
+    box-shadow: -5px 6px 10px 1px black;
+    color: #3F250B;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'schoolbell';
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-shadow: 0.1px 0.2px 1px black;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 200, 190, 0.1));
+    color: aliceblue;
+    text-shadow: 0.05px 0.1px 1px white;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+label[for="button"] {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.show-value {
+    padding-top: 5px;
+}
+
+#footer {
+    display: block;
+    padding: 2px;
+}
+
+strong {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+strong:before {
+    content: "Total Tip";
+    display: block;
+    font-size: 18px;
+}
+
+small {
+    font-size: 15px;
+    display: inline-block;
+    font-weight: lighter;
+}

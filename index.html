@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>My Page Title</title>
+      
+        <meta name="description" content="..">
+
+        <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+        <!--[if lt IE 9]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+        
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" />
+        
+        <link rel="stylesheet" type="text/css" href="index.css">
+        
+        <link href="//fonts.googleapis.com/css?family=Schoolbell&v1" rel="stylesheet">
+      
+    </head>
+    
+    <body> 
+        
+        <div id="container">
+            <header id="header">
+                <h1>Tip Calculator</h1>
+            </header>
+
+                <div class="calculator">
+                    
+                    <form id="form">
+                        <div class="label">
+                            <label for="amount">How Much Was Your Bill?</label>
+                                <input type="text" name="bill" id="amount" value="">
+                        </div>
+        
+                        <div class="label">
+                        <label for="performance">How Was Your Service?</label>
+                            
+                            <select name="service_rating" id="performance">
+                                <option value="0" disabled selected>-- Choose An Option --</option>
+                                <option value="25">25% - Splendid...</option>
+                                <option value="15">15% - Too Good</option>
+                                <option value="10">10% - Decent</option>
+                                <option value="8">8% - That's Okay!</option>
+                                <option value="5">5% - Not Good</option>
+                                <option value="2">2% - Just Bad!</option>
+                                <option value="0.9">0.9% - Horrible!!</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <div class="label people">
+                            <label for="people">How Many People Are Sharing Bill?</label>
+                                <input type="text" name="number" id="people" value="">
+                
+                        </div>
+                        
+                        
+                        <label for="button">
+                            <button type="submit" name="submit" id="button" value="Calculate">Calculate</button>
+                        </label>
+                        
+                    </form>
+                    
+                </div>
+                
+            
+            <footer id="footer">
+                <div class="show-value">
+                    <span id="strong-value"><strong id="tip">0.00</strong></span>
+                    <small id="small-value">each</small>
+                </div>
+            </footer>
+        
+        </div>
+            
+        <script src="index.js"></script>
+    </body>
+    
+    
+</html>
