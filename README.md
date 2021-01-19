@@ -4,6 +4,5 @@
 
 ## *Tools*
 
-Coding Languages: HTML5, CSS3, Javascript <br>
-Code Editor: Brackets
-
+Code Editor: Brackets <br>
+Coding Languages: HTML5, CSS3, Javascript
