@@ -17,7 +17,7 @@ function Validation(amountBill, serviceRating, numPeople) {
         return;
     }
     
-    if (serviceRating === 0)
+    if (serviceRating === "0")
         {
             window.alert("Invalid Input!");
             return;
@@ -95,5 +95,3 @@ document.getElementById("form").style.marginBottom = "86.51px";
 
 
 document.getElementById("button").onclick = function() { GetInput(); return false; };
-
-

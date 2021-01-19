@@ -34,6 +34,7 @@ h1 {
     pointer-events: none;
     font-family: cursive;
     margin-top: 0;
+    text-shadow: 1px 1px 0px #123456;
 }
 
 form {
@@ -55,9 +56,15 @@ form {
 }
 
 label {
-    cursor: pointer;
     display: block;
     padding: 8px 0;
+}
+
+label[for="amount"]:hover, label[for="performance"]:hover, label[for="people"]:hover {
+    
+    cursor: pointer;
+    color: cyan;
+    text-shadow: 1px 1px 5px black;
 }
 
 input, select {
@@ -94,7 +101,7 @@ input:hover {
 input:focus {
     cursor: text;
     outline: none;
-    border: solid 1px black;
+    border: solid 1px brown;
     margin-bottom: 0.5px;
 }
 
@@ -106,7 +113,7 @@ select:hover {
 
 select:focus {
     outline: none;
-    border: solid 1px black;
+    border: solid 1px brown;
     margin-bottom: 0.5px;
 }
 
@@ -145,8 +152,8 @@ button:focus {
 
 button:active {
     position: relative;
-    top: 2px;
-    left: 2px;
+    top: -3px;
+    left: 3px;
 }
 
 label[for="button"] {
