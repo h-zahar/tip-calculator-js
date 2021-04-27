@@ -5,4 +5,4 @@
 ## *Tools*
 
 Code Editor: Brackets <br>
-Coding Languages: HTML5, CSS3, Javascript
+Coding Languages: HTML5, CSS3, JavaScript
