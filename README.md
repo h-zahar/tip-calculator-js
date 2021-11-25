@@ -1,6 +1,6 @@
 # WebApp-Template-Tip-Calculator
 
-## Live Demo: <a href="https://ifall-ifail.github.io/WebApp-Template-Tip-Calculator/"> Click Here </a> <br>
+## Live Demo: <a href="https://h-zahar.github.io/tip-calculator-js/"> Click Here </a> <br>
 
 ## *Tools*
 
